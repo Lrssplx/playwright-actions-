@@ -22,7 +22,7 @@ test('senha incorreta', async ({ page }) => {
 
 test('com sucesso', async ({ page }) => {
   await login(page,'qa', 'xperience')
-  await modal(page, 'Suas credenciais são válidas! :)')
+  await modal(page, 'Suas credenciais são válidas :)')
 })
 
 const toast = async (page: Page, message: string) => {
